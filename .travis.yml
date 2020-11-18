@@ -1,3 +1,4 @@
 language: node_js
 script:
+  -sleep 120
   - echo 'OK'
