@@ -6,9 +6,9 @@ node_js:
 os: windows
 
 vm:
-  size: 2x-large
+  size: medium
     
 script:
   - echo 'OK'
   - sleep 500
-  - echo 'OK-OK'
+  - echo 'OK'
