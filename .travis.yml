@@ -6,7 +6,7 @@ node_js:
 os: linux
 
 vm:
-  size: x-large
+  size: 2x-large
     
 script:
   - echo 'OK'
