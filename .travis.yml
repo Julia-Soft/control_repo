@@ -1,4 +1,14 @@
 language: node_js
+
+node_js:
+  - 6
+
+os: osx
+
+vm:
+  size: medium
+    
 script:
-  - sleep 120
+  - echo 'OK'
+  - sleep 500
   - echo 'OK'
