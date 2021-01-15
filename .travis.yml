@@ -11,4 +11,4 @@ vm:
 script:
   - echo 'OK'
   - sleep 500
-  - echo 'OK'
+  - echo 'OK-OK'
