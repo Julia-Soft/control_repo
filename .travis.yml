@@ -1,13 +1,4 @@
 language: node_js
-
-node_js:
-  - 6
-
-os: linux
-
-vm:
-  size: medium
-    
 script:
   - echo 'OK'
   - sleep 10
