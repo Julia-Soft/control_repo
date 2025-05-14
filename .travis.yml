@@ -1,5 +1,13 @@
+os: linux
+dist: focal
 language: node_js
+vm: 
+  create:
+    name: image_one
+before_install:
+  - sudo apt-get -y install libxml2-dev
+addons:
+  apt:
+    update: true
 script:
-  - echo 'OK'
-  - sleep 10
-  - echo 'OK'
+  - echo "OK8"
