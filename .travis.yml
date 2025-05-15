@@ -1,6 +1,6 @@
 os: linux
 dist: focal
-language: node_js
+language: generic
 vm: 
   create:
     name: same_image_new
