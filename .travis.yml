@@ -3,7 +3,7 @@ dist: focal
 language: generic
 vm: 
   create:
-    name: same_image_new
+    name: checking_build
 before_install:
   - sudo apt-get -y install libxml2-dev
 addons:
