@@ -3,7 +3,7 @@ dist: focal
 language: node_js
 vm: 
   create:
-    name: same_image
+    name: same_image_new
 before_install:
   - sudo apt-get -y install libxml2-dev
 addons:
